@@ -15,11 +15,12 @@ body
 {
     font-weight: bold;
     font-size: 36pt;
+    margin-bottom: 10pt;
 }
 
 #menu p
 {
-    margin-top: -20pt;
+    margin-top: -10pt;
     font-weight: normal;
     font-size:20pt;
 }
@@ -45,6 +46,8 @@ a:hover
 {
     color: grey;
 }
+
+
 /*
 p a
 {
