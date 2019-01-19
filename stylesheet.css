@@ -1,99 +1,56 @@
 body
 {
+    margin: 0;
+    padding: 0;
+    background: white;
     font-family: sans-serif;
-    text-align: left;
-    padding: 10%;
-}
-
-#about
-{
-    font-weight: bold;
-    font-size: 36pt;
-}
-
-#menu h2
-{
-    font-weight: bold;
-    font-size: 36pt;
-    margin-bottom: 10pt;
-}
-
-#menu p
-{
-    margin-top: -10pt;
-    font-weight: normal;
-    font-size:20pt;
-}
-
-#contact_page_title
-{
-    font-size: 36pt;
-    margin-bottom: 40pt;
-}
-#contact_menu h2
-{
-    font-size: 30pt;
-    margin-top: -30pt;
-}
-
-a
-{
-    color: black;
-    text-decoration: underline;
-}
-
-a:hover
-{
-    color: grey;
+    font-weight: lighter;
 }
 
 
-/*
-p a
+.home_page
 {
-    color: black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.contact_menu
+{
+    width: 50%;
+    float: left;
+}
+
+.image
+{
+    width: 50%;
+    float:left;
+}
+
+li{
+    list-style-type: none;
+}
+li a{
     text-decoration: none;
-}
-
-#contact_menu a
-{
+    display: inline-block;
     color: black;
-    text-decoration: none;
+    font-family: sans-serif;
+    font-weight: lighter;
+    font-size: 14pt;
+    padding: 0 20%;
 }
 
-h1 a
-{
-    color: black;
-    text-decoration: none;
+.link::after{
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #FF2102 ;
+    transition: width .3s;
 }
 
-p a:hover
-{
-    color: grey;
+.link:hover::after{
+    width: 100%;
+    transition:width .3s;
 }
-
-#contact_menu a:hover
-{
-    color: grey;
-}
-
-h1 a:hover
-{
-    color: grey;
-}
-
-p a:visited
-{
-    color: black;
-}
-
-#contact_menu a:visited
-{
-    color: black;
-}
-
-h1 a:visited
-{
-    color: black;
-}
-*/
