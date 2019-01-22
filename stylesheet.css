@@ -54,3 +54,8 @@ li a{
     width: 100%;
     transition:width .3s;
 }
+
+.title{
+    font-weight: bold;
+    margin-bottom: 5px;
+}
