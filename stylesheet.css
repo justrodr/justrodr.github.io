@@ -115,9 +115,9 @@ li a{
 @media screen and (max-width: 500px){
 
     .home_page{
-    position: absolute;
+    position: fixed;
     top: 0;
-    left: 0;
+    left: 50%;
     }
 
     .image{
