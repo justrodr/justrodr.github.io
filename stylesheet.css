@@ -109,5 +109,28 @@ li a{
         left: 110%;
         width: 0%;
     }
+}
 
+@media screen and (max-width: 500px){
+
+    .home_page{
+    position: absolute;
+    top: 0;
+    left: 50%;
+    }
+
+    .image{
+        position: absolute;
+        width: 100%;
+        top: 0;
+        left: 0;
+
+    } 
+    .contact_menu{
+        position: absolute;
+        top: 200px;
+        left: 0;
+        width: 100%;
+    }
+    
 }
