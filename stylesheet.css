@@ -59,6 +59,7 @@ li a{
 
 .title{
     font-weight: bold;
+    font-size: 16pt;
     margin-bottom: 5px;
 }
 
@@ -116,7 +117,7 @@ li a{
     .home_page{
     position: absolute;
     top: 0;
-    left: 50%;
+    left: 0;
     }
 
     .image{
