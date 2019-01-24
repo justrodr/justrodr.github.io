@@ -19,6 +19,7 @@ body
 .contact_menu
 {
     position: relative;
+    transform: translateY(-3px);
     width: 50%;
     float: left;
 }
@@ -117,7 +118,7 @@ li a{
     .home_page{
     position: fixed;
     top: 0;
-    left: 50%;
+    left: 25%;
     }
 
     .image{
