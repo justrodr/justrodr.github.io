@@ -3,26 +3,27 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <title>Justin Rodriguez</title>
+        <title>Weekend Trip</title>
         <link rel="stylesheet" href="stylesheet.css">
-    </head>
+        
+</head>
 <html>
     <body>
-        <div class="home_page">
-            <div class="contact_menu">
-                <li><a  class="title">Justin Rodriguez</a></li>
-                <li><a href="about.html" class="link">About</a></li>
-                <li><a href="JustinRodriguezResume.pdf" class="link">Resume</a></li>
-                <li><a href="https://github.com/justrodr" class="link">Github</a></li>
-                <li><a href="https://www.linkedin.com/in/justin-rodr/" class="link">LinkedIn</a></li>
-                <li><a href="https://www.instagram.com/justinr4/" class="link">Instagram</a></li>
-                <li><a href="https://www.youtube.com/channel/UCtybUM7yJS8pQ94kVcHxs2A" class="link">Youtube</a></li>
+        <div class="page">
+            <div class="title">
+                <h1 id="main">Weekend Trip</h1>
+                <h2 id="company">American Airlines</h2>
             </div>
-            <div class="image">
-                <!-- <img src="profile.jpg" style="width:167px;height:180px;"> -->
-                <img src="profile.jpg" style="height:185px;">
-            
+            <div class="flight">
+                <h4>to</h4>
+                <h3 class="destination" id="city">Hong Kong</h3>
+                <h4>for</h4>
+                <h3 class="destination" id="price">$100</h3>
+                <h4>from</h4>
+                <input onkeypress="return getFlight(event)" type="text" id="origin_input" class="origin"><br>
+                <a href="https://www.aa.com/homePage.do"><button id="book_flight">Book</button></a>
             </div>
         </div>
+        <script src="main.js"></script>
     </body>
 </html>
