@@ -11,14 +11,14 @@ body
     font-size: 36pt;
 }
 
-#menu h2
+#main h2
 {
     font-weight: bold;
     font-size: 36pt;
     margin-bottom: 10pt;
 }
 
-#menu p
+#main p
 {
     margin-top: -10pt;
     font-weight: normal;
@@ -30,7 +30,7 @@ body
     font-size: 36pt;
     margin-bottom: 40pt;
 }
-#contact_menu h2
+#contact_main h2
 {
     font-size: 30pt;
     margin-top: -30pt;
@@ -48,4 +48,10 @@ a:visited{
 
 a:hover{
     opacity: .8;
+}
+
+h4{
+    font-size: 12pt;
+    font-weight: 100;
+    /* margin-top: -20px; */
 }
