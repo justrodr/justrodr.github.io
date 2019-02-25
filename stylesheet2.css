@@ -55,3 +55,45 @@ h4{
     font-weight: 100;
     /* margin-top: -20px; */
 }
+
+@media screen and (max-width: 500px){
+    #about{
+        font-size: 18pt;
+    }
+
+    #main h2{
+    font-weight: bold;
+    font-size: 18pt;
+    margin-bottom: 10pt;
+    }
+
+    #main p{
+        margin-top: -5pt;
+        font-weight: normal;
+        font-size: 14pt;
+    }
+    
+    #contact_main h2
+    {
+        font-size: 30pt;
+        margin-top: -30pt;
+    }
+
+    a{
+        color: black;
+        text-decoration: none;
+    }
+
+    a:visited{
+        color: black;
+        text-decoration: none;
+    }
+
+    h4{
+        font-size: 12pt;
+        font-weight: 100;
+        /* margin-top: -20px; */
+    }
+
+
+}
