@@ -64,6 +64,14 @@ li a{
     margin-bottom: 5px;
 }
 
+.back-button{
+    transition: 0.2s;
+}
+
+.back-button:hover{
+    transform: translateX(-2.5px);
+}
+
 
 /* attempted animation */
 

@@ -7,6 +7,7 @@ body
 
 #about
 {
+    margin-top: -10px;
     font-weight: bold;
     font-size: 36pt;
 }
@@ -54,6 +55,14 @@ h4{
     font-size: 12pt;
     font-weight: 100;
     /* margin-top: -20px; */
+}
+
+.back-button{
+    transition: 0.2s;
+}
+
+.back-button:hover{
+    transform: translateX(-2.5px);
 }
 
 @media screen and (max-width: 500px){
