@@ -27,6 +27,8 @@ h2
 }
 
 .back-button{
+    float: left;
+    width: 50%;
     transition: 0.2s;
 }
 
@@ -34,8 +36,15 @@ h2
     transform: translateX(-2.5px);
 }
 
-.project_img{
-    width: 100%;
+.next-button{
+    text-align: right;
+    float: right;
+    width: 50%;
+    transition: 0.2s;
+}
+
+.next-button:hover{
+    transform: translateX(2.5px);
 }
 
 p{
@@ -43,6 +52,10 @@ p{
     font-weight: 600;
     /* padding-top: 20px;
     padding-bottom: 20px; */
+    width: 100%;
+}
+
+.project_img{
     width: 100%;
 }
 
