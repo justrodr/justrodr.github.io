@@ -100,3 +100,15 @@ h4{
 
 
 }
+
+@media screen and (max-width: 900px){
+
+    .grid{
+        display: grid;
+        grid-template-areas: 
+        'col1 col1 col1'
+        'col2 col2 col2'
+        'col3 col3 col3';
+    }
+
+}

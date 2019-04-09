@@ -49,7 +49,7 @@ h2
 
 p{
     font-size: 18pt;
-    font-weight: 600;
+    font-weight: 500;
     /* padding-top: 20px;
     padding-bottom: 20px; */
     width: 100%;
@@ -102,4 +102,30 @@ p{
     'left_col_three center_col_three right_col_three' ;
 
     grid-gap: 20px;
+}
+
+@media screen and (max-width: 900px){
+
+    .grid{
+    display: grid;
+    grid-template-areas: 
+    'left_col left_col left_col left_col' 
+    'left_col left_col left_col left_col' 
+    'right_col right_col right_col right_col'
+    'right_col right_col right_col right_col';
+
+
+    grid-gap: 20px;
+    }
+
+    .grid-three{
+        display: grid;
+        grid-template-areas: 
+        'left_col_three left_col_three left_col_three' 
+        'center_col_three center_col_three center_col_three' 
+        'right_col_three right_col_three right_col_three' ;
+
+        grid-gap: 20px;
+    }
+
 }
