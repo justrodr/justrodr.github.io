@@ -19,7 +19,7 @@ body
 .contact_menu
 {
     position: relative;
-    transform: translateY(-3px);
+    transform: translateY(-4px);
     width: 50%;
     float: left;
 }
