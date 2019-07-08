@@ -110,5 +110,9 @@ h4{
         'col2 col2 col2'
         'col3 col3 col3';
     }
+    
+    body {
+        padding: 3%;
+    }
 
 }
