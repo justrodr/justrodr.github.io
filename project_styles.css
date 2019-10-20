@@ -28,7 +28,7 @@ h2
 
 .back-button{
     float: left;
-    width: 50%;
+    width: 100%;
     transition: 0.2s;
 }
 
@@ -36,20 +36,9 @@ h2
     transform: translateX(-2.5px);
 }
 
-.next-button{
-    text-align: right;
-    float: right;
-    width: 50%;
-    transition: 0.2s;
-}
-
-.next-button:hover{
-    transform: translateX(2.5px);
-}
-
 p{
     font-size: 18pt;
-    font-weight: 500;
+    font-weight: 100;
     /* padding-top: 20px;
     padding-bottom: 20px; */
     width: 100%;
@@ -66,39 +55,39 @@ p{
     margin: auto;
 }
 
-.left-col{ 
-    grid-area: left_col; 
+.left-col{
+    grid-area: left_col;
 }
-.right-col{ 
+.right-col{
     grid-area: right_col;
  }
 
 .grid{
     display: grid;
-    grid-template-areas: 
-    'left_col left_col right_col right_col' 
+    grid-template-areas:
+    'left_col left_col right_col right_col'
     'left_col left_col right_col right_col'
     'left_col left_col right_col right_col';
 
     grid-gap: 20px;
 }
 
-.left-col-three{ 
-    grid-area: left_col_three; 
+.left-col-three{
+    grid-area: left_col_three;
 }
-.center-col-three{ 
+.center-col-three{
     grid-area: center_col_three;
  }
-.right-col-three{ 
+.right-col-three{
     grid-area: right_col_three;
  }
 
 
 .grid-three{
     display: grid;
-    grid-template-areas: 
-    'left_col_three center_col_three right_col_three' 
-    'left_col_three center_col_three right_col_three' 
+    grid-template-areas:
+    'left_col_three center_col_three right_col_three'
+    'left_col_three center_col_three right_col_three'
     'left_col_three center_col_three right_col_three' ;
 
     grid-gap: 20px;
@@ -123,9 +112,9 @@ p{
 
     .grid{
     display: grid;
-    grid-template-areas: 
-    'left_col left_col left_col left_col' 
-    'left_col left_col left_col left_col' 
+    grid-template-areas:
+    'left_col left_col left_col left_col'
+    'left_col left_col left_col left_col'
     'right_col right_col right_col right_col'
     'right_col right_col right_col right_col';
 
@@ -135,9 +124,9 @@ p{
 
     .grid-three{
         display: grid;
-        grid-template-areas: 
-        'left_col_three left_col_three left_col_three' 
-        'center_col_three center_col_three center_col_three' 
+        grid-template-areas:
+        'left_col_three left_col_three left_col_three'
+        'center_col_three center_col_three center_col_three'
         'right_col_three right_col_three right_col_three' ;
 
         grid-gap: 20px;

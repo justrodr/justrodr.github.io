@@ -22,7 +22,7 @@ body
 #main p
 {
     margin-top: -10pt;
-    font-weight: normal;
+    font-weight: 100;
     font-size:20pt;
 }
 
@@ -96,7 +96,7 @@ section{
         font-weight: normal;
         font-size: 14pt;
     }
-    
+
     #contact_main h2
     {
         font-size: 30pt;

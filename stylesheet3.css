@@ -20,6 +20,12 @@ h2
   /* font-weight: 100; */
 }
 
+.article_tile
+{
+  /* background-color: black; */
+  padding: 10px;
+}
+
 a{
     color: black;
     text-decoration: none;
@@ -76,6 +82,8 @@ h4{
 
 .article_title{
   transition: 0.3s;
+  font-weight: bold;
+  font-size: 14pt;
 }
 
 .img_link:hover .project_img{
@@ -92,6 +100,18 @@ h4{
 
 .back-button:hover{
     transform: translateX(-2.5px);
+}
+
+.article_item {
+  margin-bottom: 50px;
+}
+
+.shift_down_2 {
+  margin-top: 90vh;
+}
+
+.shift_down_1 {
+  margin-top: 30vh;
 }
 
 @media screen and (max-width: 500px){
