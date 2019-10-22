@@ -14,6 +14,10 @@ header {
   font-size: 28pt;
 }
 
+#home_menu {
+  height: 85vh;
+}
+
 .back-button {
   font-size: 15pt;
 }
@@ -52,6 +56,8 @@ header {
 
 .floating_item {
   width: 400px;
+  padding-left: 15%;
+  padding-right: 15%;
 }
 
 li{
@@ -88,14 +94,34 @@ li a{
 }
 
 .single_column {
-  padding: 10%;
+  padding-top: 0;
+  padding-left: 10%;
+  padding-right: 10%;
 }
 
-#about
+#down_arrow {
+  float: center;
+  text-align: center;
+  font-size: 60pt;
+  font-weight: 100;
+}
+
+.vertical_shift {
+  transition: 0.3s;
+}
+
+.vertical_shift:hover {
+  color: #FF2102;
+  /* opacity: .5; */
+}
+
+#about_p
 {
     margin-top: 5px;
     font-weight: 100;
     font-size: 40pt;
+    padding-top: 10%;
+    padding-bottom: 10%;
 }
 
 a{
