@@ -5,6 +5,8 @@ body
     background: white;
     font-family: sans-serif;
     font-weight: lighter;
+    max-width: 1920px;
+    margin: auto;
 }
 
 header {
