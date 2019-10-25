@@ -215,4 +215,27 @@ a:visited{
       margin-top: 0;
     }
 
+    .floating_item {
+      width: 80%;
+      padding-left: 0;
+      padding-right: 0;
+      float: left;
+    }
+
+    .two_col_left_col {
+        grid-area: left-side;
+        float: center;
+    }
+
+    .two_col_right_col {
+        grid-area: right-side;
+        float: center;
+    }
+
+    img {
+      height: 80px;
+    }
+
+
+
 }
