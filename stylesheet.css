@@ -9,6 +9,10 @@ body
     margin: auto;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 header {
   padding: 10%;
   padding-bottom: 0;
@@ -18,6 +22,10 @@ header {
 
 #home_menu {
   height: 85vh;
+}
+
+#about_p {
+  scroll-behavior: smooth;
 }
 
 .back-button {
@@ -104,7 +112,7 @@ li a{
 #down_arrow {
   float: center;
   text-align: center;
-  font-size: 60pt;
+  font-size: 40pt;
   font-weight: 100;
 }
 
@@ -190,6 +198,14 @@ a:visited{
 
 .align_right {
   float: right;
+}
+
+.padding_top {
+  padding-top: 10%;
+}
+
+.blog_entry {
+  
 }
 
 @media screen and (max-width: 500px){
