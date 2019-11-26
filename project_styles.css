@@ -28,7 +28,7 @@ h2
 
 .back-button{
     float: left;
-    width: 100%;
+    width: 100px;
     transition: 0.2s;
 }
 
