@@ -5,26 +5,55 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Justin Rodriguez</title>
-    <link rel="stylesheet" href="project_styles.css">
+    <link rel="stylesheet" href="project_styles_2.css">
     <link rel="icon" href="favicon.png">
 </head>
 <html>
-<div class="container">
-    <header>
-        <h3 class="back-button"><a href="portfolio.html">&#8592</a></h3>
-        <h2>Random Videos</h2>
-    </header>
-    <p>As a hobby, I make videos using Premiere and After Effects. Here are some videos that I made. You can check out
-        more at my <a target="_blank" href="https://www.youtube.com/channel/UCtybUM7yJS8pQ94kVcHxs2A?view_as=subscriber">Youtube
-            Channel</a></p>
-    <div class="videoWrapper">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/ngCtRFQ_BDo" frameborder="0"
-            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<body>
+
+<div class="container" onclick="myFunction(this)">
+  <div class="hamburger_menu">
+    <div class="bar1"></div>
+    <div class="bar2"></div>
+    <div class="bar3"></div>
+  </div>
+  <div class="single_column pop_menu">
+    <div class="contact_menu">
+        <li><a href="index.html" class="link">Home</a></li>
+        <li><a href="portfolio.html" class="link">Experience</a></li>
+        <li><a href="JustinRodriguezResume.pdf" target="_blank" class="link">Resume</a></li>
+        <li><a href="https://github.com/justrodr" target="_blank" class="link">Github</a></li>
+        <li><a href="https://www.linkedin.com/in/justin-rodr/" target="_blank" class="link">LinkedIn</a></li>
+        <li><a href="https://www.youtube.com/channel/UCtybUM7yJS8pQ94kVcHxs2A?view_as=subscriber" target="_blank" class="link">Youtube</a></li>
     </div>
-    <div class="videoWrapper">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/0Su7IFxegQQ" frameborder="0"
-            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </div>
+</div>
+
+<script>
+  function myFunction(x) {
+    x.classList.toggle("change");
+  }
+</script>
+
+<div class="post_page">
+    <h2 class="post_title">My Youtube Channel</h2>
+    <h3 class="post_subtitle"> A Wannabe Travel Vlogger</h3>
+    <p class="post_paragraph">
+      As a hobby, I make videos using Premiere and After Effects. Here are some videos that I made. You can check out
+          more at my <a target="_blank" href="https://www.youtube.com/channel/UCtybUM7yJS8pQ94kVcHxs2A?view_as=subscriber">Youtube
+              Channel</a>
+    </p>
+    <div class="single_column">
+      <div class="videoWrapper">
+          <iframe src="https://www.youtube.com/embed/ngCtRFQ_BDo" frameborder="0"
+              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+      <div class="videoWrapper">
+          <iframe src="https://www.youtube.com/embed/0Su7IFxegQQ" frameborder="0"
+              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
     </div>
 </div>
 
+</body>
 </html>

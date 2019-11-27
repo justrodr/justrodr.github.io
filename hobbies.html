@@ -5,25 +5,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Justin Rodriguez | Current</title>
-    <link rel="stylesheet" href="stylesheet2.css">
+    <link rel="stylesheet" href="project_styles_2.css">
     <link rel="icon" href="favicon.png">
 </head>
 <html>
 
 <body>
-    <div id="main">
-        <header>
-            <h3 class="back-button"><a href="index.html">&#8592</a></h3>
-            <h2>Life Outside of Software</h2>
-        </header>
-        <section>
-            <p>
-              For most of my life I played drums and soccer. I’m a jazz and blues drummer, and I played club soccer through middle school and high school. Music and soccer are hobbies that I maintain now that are central to my character. I learned how to think creatively and spontaneously through jazz and blues, and I learned discipline through soccer.
-            </p>
-        </section>
+    <div class="container" onclick="myFunction(this)">
+      <div class="hamburger_menu">
+        <div class="bar1"></div>
+        <div class="bar2"></div>
+        <div class="bar3"></div>
+      </div>
+      <div class="single_column pop_menu">
+        <div class="contact_menu">
+            <li><a href="index.html" class="link">Home</a></li>
+            <li><a href="portfolio.html" class="link">Experience</a></li>
+            <li><a href="JustinRodriguezResume.pdf" target="_blank" class="link">Resume</a></li>
+            <li><a href="https://github.com/justrodr" target="_blank" class="link">Github</a></li>
+            <li><a href="https://www.linkedin.com/in/justin-rodr/" target="_blank" class="link">LinkedIn</a></li>
+            <li><a href="https://www.youtube.com/channel/UCtybUM7yJS8pQ94kVcHxs2A?view_as=subscriber" target="_blank" class="link">Youtube</a></li>
+        </div>
+      </div>
     </div>
 
+    <script>
+      function myFunction(x) {
+        x.classList.toggle("change");
+      }
+    </script>
 
+    <div class="post_page">
+        <h2 class="post_title">Life Outside of Software</h2>
+        <p class="post_paragraph">
+          For most of my life I played drums and soccer. I’m a jazz and blues drummer, and I played club soccer through middle school and high school. Music and soccer are hobbies that I maintain now that are central to my character. I learned how to think creatively and spontaneously through jazz and blues, and I learned discipline through soccer.
+        </p>
+    </div>
 </body>
 
 </html>

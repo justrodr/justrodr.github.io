@@ -5,38 +5,59 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Justin Rodriguez</title>
-    <link rel="stylesheet" href="project_styles.css">
+    <link rel="stylesheet" href="project_styles_2.css">
     <link rel="icon" href="favicon.png">
 </head>
 <html>
 
 <body>
-    <header>
-        <h3 class="back-button"><a href="portfolio.html">&#8592</a></h3>
-        <h2>A Week At Adobe</h2>
-    </header>
-    <div class="grid">
-        <div class="left-col">
-            <img src="sf.jpg" class="small_pic">
+
+    <div class="container" onclick="myFunction(this)">
+      <div class="hamburger_menu">
+        <div class="bar1"></div>
+        <div class="bar2"></div>
+        <div class="bar3"></div>
+      </div>
+      <div class="single_column pop_menu">
+        <div class="contact_menu">
+            <li><a href="index.html" class="link">Home</a></li>
+            <li><a href="portfolio.html" class="link">Experience</a></li>
+            <li><a href="JustinRodriguezResume.pdf" target="_blank" class="link">Resume</a></li>
+            <li><a href="https://github.com/justrodr" target="_blank" class="link">Github</a></li>
+            <li><a href="https://www.linkedin.com/in/justin-rodr/" target="_blank" class="link">LinkedIn</a></li>
+            <li><a href="https://www.youtube.com/channel/UCtybUM7yJS8pQ94kVcHxs2A?view_as=subscriber" target="_blank" class="link">Youtube</a></li>
         </div>
-        <div class="right-col">
-            <p>
-                Through rigorous networking and incredible luck, I was able to
-                land an externship at Adobe in 2015. I had emailed all of my
-                parents' friends, my firends' parents, and the faculty and staff asking
-                to send me contacts that they might have of people who work in
-                Silicon Valley. At this time I already had a strong desire to
-                pursue a career in tech, and I was determined to create learning
-                opportunities. When I finally got in contact with an employee at
-                Adobe and asked about opportunities that they might know of, one
-                of Adobe's executive's son was also looking to do an externship
-                at Adobe. Serendipitously, I was able to join him for his
-                externship. We learned about several different departments in Adobe,
-                and got a true sense of what working at a large tech company would
-                be like. I learned how I could create opportunities through hustle
-                and grit.
-            </p>
+      </div>
+    </div>
+
+    <script>
+      function myFunction(x) {
+        x.classList.toggle("change");
+      }
+    </script>
+
+    <div class="post_page">
+        <h2 class="post_title">Summer 2015 @ Adobe</h2>
+        <h3 class="post_subtitle">My first exposure to Silicon Valley</h3>
+        <div class="single_column">
+          <img src="sf.jpg" class="small_pic">
         </div>
+        <p class="post_paragraph">
+          Through rigorous networking and incredible luck, I was able to
+          land an externship at Adobe in 2015. I had emailed all of my
+          parents' friends, my firends' parents, and the faculty and staff asking
+          to send me contacts that they might have of people who work in
+          Silicon Valley. At this time I already had a strong desire to
+          pursue a career in tech, and I was determined to create learning
+          opportunities. When I finally got in contact with an employee at
+          Adobe and asked about opportunities that they might know of, one
+          of Adobe's executive's son was also looking to do an externship
+          at Adobe. Serendipitously, I was able to join him for his
+          externship. We learned about several different departments in Adobe,
+          and got a true sense of what working at a large tech company would
+          be like. I learned how I could create opportunities through hustle
+          and grit.
+        </p>
     </div>
 </body>
 
