@@ -192,6 +192,13 @@ a:visited{
   transition: 0.5s;
 }
 
+.small_pic{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    width: 80%;
+    margin: auto;
+}
+
 .shift_down {
   margin-top: 50%;
 }
@@ -210,6 +217,22 @@ a:visited{
 
 .blog_entry h4{
   font-size: 20pt;
+}
+
+@media screen and (max-width: 1200px){
+  .floating_item {
+    width: 350px;
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+}
+
+@media screen and (max-width: 973px){
+  .floating_item {
+    width: 250px;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
 }
 
 @media screen and (max-width: 500px){
@@ -252,9 +275,9 @@ a:visited{
         float: center;
     }
 
-    img {
+    /* img {
       height: 80px;
-    }
+    } */
 
 
 

@@ -11,29 +11,30 @@
 <html>
 <body>
 
-<div class="container" onclick="myFunction(this)">
-  <div class="hamburger_menu">
-    <div class="bar1"></div>
-    <div class="bar2"></div>
-    <div class="bar3"></div>
-  </div>
-  <div class="single_column pop_menu">
-    <div class="contact_menu">
-        <li><a href="index.html" class="link">Home</a></li>
-        <li><a href="portfolio.html" class="link">Experience</a></li>
-        <li><a href="JustinRodriguezResume.pdf" target="_blank" class="link">Resume</a></li>
-        <li><a href="https://github.com/justrodr" target="_blank" class="link">Github</a></li>
-        <li><a href="https://www.linkedin.com/in/justin-rodr/" target="_blank" class="link">LinkedIn</a></li>
-        <li><a href="https://www.youtube.com/channel/UCtybUM7yJS8pQ94kVcHxs2A?view_as=subscriber" target="_blank" class="link">Youtube</a></li>
+  <div id="container" class="container" >
+    <div id="test" class="hamburger_menu" onclick="myFunction(container)">
+      <div class="bar1"></div>
+      <div class="bar2"></div>
+      <div class="bar3"></div>
+    </div>
+    <div id="test2" class="single_column pop_menu">
+      <div class="contact_menu">
+          <li><a href="index.html" class="link">Home</a></li>
+          <li><a href="portfolio.html" class="link">Experience</a></li>
+          <li><a href="JustinRodriguezResume.pdf" target="_blank" class="link">Resume</a></li>
+          <li><a href="https://github.com/justrodr" target="_blank" class="link">Github</a></li>
+          <li><a href="https://www.linkedin.com/in/justin-rodr/" target="_blank" class="link">LinkedIn</a></li>
+          <li><a href="https://www.youtube.com/channel/UCtybUM7yJS8pQ94kVcHxs2A?view_as=subscriber" target="_blank" class="link">Youtube</a></li>
+      </div>
     </div>
   </div>
-</div>
 
-<script>
-  function myFunction(x) {
-    x.classList.toggle("change");
-  }
-</script>
+  <script>
+    function myFunction(x) {
+      x.classList.toggle("change");
+      console.log("cool");
+    }
+  </script>
 
 <div class="post_page">
     <h2 class="post_title">My Youtube Channel</h2>
@@ -43,7 +44,7 @@
           more at my <a target="_blank" href="https://www.youtube.com/channel/UCtybUM7yJS8pQ94kVcHxs2A?view_as=subscriber">Youtube
               Channel</a>
     </p>
-    <div class="single_column">
+    <div id="video_wrapper" class="single_column">
       <div class="videoWrapper">
           <iframe src="https://www.youtube.com/embed/ngCtRFQ_BDo" frameborder="0"
               allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
