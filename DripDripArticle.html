@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Justin Rodriguez</title>
+    <link rel="stylesheet" href="project_styles_2.css">
+    <link rel="icon" href="favicon.png">
+</head>
+<html>
+
+<body>
+
+
+    <div class="container" onclick="myFunction(this)">
+        <div class="hamburger_menu">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+        </div>
+        <div class="single_column pop_menu">
+            <div class="contact_menu">
+                <li><a href="index.html" class="link">Home</a></li>
+                <li><a href="portfolio.html" class="link">Experience</a></li>
+                <li><a href="JustinRodriguezResume.pdf" target="_blank" class="link">Resume</a></li>
+                <li><a href="https://github.com/justrodr" target="_blank" class="link">Github</a></li>
+                <li><a href="https://www.linkedin.com/in/justin-rodr/" target="_blank" class="link">LinkedIn</a></li>
+                <li><a href="https://www.youtube.com/channel/UCtybUM7yJS8pQ94kVcHxs2A?view_as=subscriber"
+                        target="_blank" class="link">Youtube</a></li>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function myFunction(x) {
+            x.classList.toggle("change");
+        }
+    </script>
+
+    <div class="post_page">
+        <h2 class="post_title">DripDrip</h2>
+        <h4 class="post_subtitle">A collaborative hydration tracker and reminder</h4>
+        <div class=two_column_grid>
+            <div class="two_col_left_col">
+                <img src="DripDripHome.jpg" class="small_pic">
+            </div>
+            <div class="two_col_right_col">
+                <img src="DripDripConversation.jpg" class="small_pic">
+            </div>
+        </div>
+        <p class="post_paragraph">
+            This is DripDrip! DripDrip is an app that helps people stay hydrated by creating a gamified social framework
+            where
+            friends can remind eachother to drink water, and form teams to build new habits together.
+        </p>
+        <h3>The App</h3>
+        <p class="post_paragraph">
+            There are hundreds of hydration reminder apps on the App Store. Unlike the majority of those apps, DripDrip
+            relies on its user community to send reminders instead timers. In DripDrip, users send funny reminders to
+            drink water to each other. Those messages are presented to the recipient in the form of push notifications,
+            and a chat messages in the app. The app calculates a healthy target water volume that users should drink
+            daily, based on their weight. When users receive a reminder message, they are prompted to drink some water,
+            and log how much water they drank in the app. Users who complete complete their target water goal in
+            consecutive days increase their personal DripDrip score, and contribute to their groups scores as well.
+        </p>
+        <div class="two_column_grid">
+            <div class="two_col_left_col">
+                <img src="DripDripLogWater.jpg" class="small_pic">
+            </div>
+            <div class="two_col_right_col">
+                <img src="DripDripGroup.jpg" class="small_pic">
+            </div>
+        </div>
+        <p class="post_paragraph">
+            There are hundreds of hydration reminder apps on the App Store. Unlike the majority of those apps, DripDrip
+            relies on its user community to send reminders instead timers. In DripDrip, users send random funny
+            reminders to
+            drink water to each other. Those messages are presented to the recipient in the form of push notifications,
+            and a chat messages in the app. The app calculates a healthy target water volume that users should drink
+            daily, based on their weight. When users receive a reminder message, they are prompted to drink some water,
+            and log how much water they drank in the app. Users who complete complete their target water goal in
+            consecutive days increase their personal DripDrip score, and contribute to their groups scores as well.
+        </p>
+        <p class="post_paragraph">
+            Along with keeping a personal score, DripDrip Groups are another great way for users to stay motivated in
+            maintaining their healthy habit. Groups are like those running groups that people join to train for 10k's
+            and half marathons. Friends can form a group, and work together to earn a group score. Every consecutive day
+            that every group member meets their target hydration goal, the group score increases. Group members can keep
+            track of which members have and have not completed their goal for the day. Similar to running groups,
+            DripDrip groups help members stay committed, and provide a stronger community that motivates each other.
+        </p>
+        <p class="post_paragraph">
+            <a href="https://apps.apple.com/us/app/dripdrip-social-hydration/id1496441518" target="_blank">Check out the
+                app on the App Store &#8594</a>
+        </p>
+
+        <h3>The Tech</h3>
+        <p class="post_paragraph">
+            DripDrip is an MVVM structured app written in Swift. DripDrip uses a Firebase backend, with cloud functions
+            written in Typescript. The original app was ideated and prototyped by David Ho and Justin Rodriguez, and the
+            latest version of the app was written and released by Justin Rodriguez. The app is fully opensource. It is
+            encouraged that young iOS developers utilize DripDrip's source code to make their own creations. As a young
+            iOS developer myself, I learned many useful skills in app development while writing DripDrip. Currently, I
+            am
+            helping a younger computer science student create their own app with DripDrip's sourcecode as a starting
+            point. This process will later be documented as a step by step guide for other young developers to follow.
+        </p>
+        <p class="post_paragraph">
+            <a href="https://github.com/justrodr/DrinkWaterApp" target="_blank">Check out the source code &#8594</a>
+        </p>
+        <h3>The Business</h3>
+        <p class="post_paragraph">
+            My hope for DripDrip, along with helping people have a laugh and create healthy habits, is for it to be a
+            cash-flow-positive business. DripDrip has over 200 users, and as the user base grows, I believe that some
+            water, and water bottle companies might be interested in advertising to a bunch of motivated water drinkers.
+            Advertisments would not detract from the user experience as they would be presented as one of the random
+            reminder messages that users send to eachother. Messages like "Drink _____ water. It's better" and "Bro I
+            think you need a ____ water bottle" along with a purchase link, could help create brand awareness and drive
+            sales.
+        </p>
+        <p class="post_paragraph">
+            I purposely designed my database to be as lean as possible in order to minimize my server and database
+            costs. Currently, my personal Venmo account is in the app, and DripDrip is fully supported by donations.
+            Even small donations help me accomodate hundreds more users on the app.
+        </p>
+    </div>
+
+</body>
+
+
+</html>

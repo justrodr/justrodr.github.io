@@ -219,6 +219,11 @@ a:visited{
   font-size: 20pt;
 }
 
+.footer {
+  height: 500px;
+  background-color: #FF2102;
+}
+
 @media screen and (max-width: 1200px){
   .floating_item {
     width: 350px;
