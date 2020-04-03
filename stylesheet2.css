@@ -80,6 +80,13 @@ section{
     padding-bottom: 5%;
 }
 
+.app_screenshot {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    width: 80%;
+    margin: auto;
+  }
+
 @media screen and (max-width: 500px){
     #about{
         font-size: 18pt;

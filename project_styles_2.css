@@ -70,6 +70,10 @@ body
     margin: auto;
 }
 
+.app_screenshot {
+  width: 80%;
+}
+
 .post_paragraph {
   font-family: sans-serif;
   font-size: 16pt;
