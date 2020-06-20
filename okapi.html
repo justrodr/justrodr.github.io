@@ -1,83 +1,117 @@
 <!DOCTYPE html>
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Justin Rodriguez</title>
-    <link rel="stylesheet" href="project_styles_2.css">
-    <link rel="icon" href="images/favicon.png">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Justin Rodriguez</title>
+  <link rel="stylesheet" href="project_styles_2.css">
+  <link rel="icon" href="images/favicon.png">
 </head>
 <html>
 
 <body>
 
 
-    <div class="container" onclick="myFunction(this)">
-      <div class="hamburger_menu">
-        <div class="bar1"></div>
-        <div class="bar2"></div>
-        <div class="bar3"></div>
-      </div>
-      <div class="single_column pop_menu">
-        <div class="contact_menu">
-            <li><a href="index.html" class="link">Home</a></li>
-            <li><a href="index.html#Featured_Articles" class="link">Work</a></li>
-            <li><a href="JustinRodriguezResume.pdf" target="_blank" class="link">Resume</a></li>
-            <li><a href="https://github.com/justrodr" target="_blank" class="link">Github</a></li>
-            <li><a href="https://www.linkedin.com/in/justin-rodr/" target="_blank" class="link">LinkedIn</a></li>
-            <li><a href="https://www.youtube.com/channel/UCtybUM7yJS8pQ94kVcHxs2A?view_as=subscriber" target="_blank" class="link">Youtube</a></li>
-        </div>
+  <div class="container" onclick="myFunction(this)">
+    <div class="hamburger_menu">
+      <div class="bar1"></div>
+      <div class="bar2"></div>
+      <div class="bar3"></div>
+    </div>
+    <div class="single_column pop_menu">
+      <div class="contact_menu">
+        <li><a href="index.html" class="link">Home</a></li>
+        <li><a href="index.html#Featured_Articles" class="link">Work</a></li>
+        <li><a href="JustinRodriguezResume.pdf" target="_blank" class="link">Resume</a></li>
+        <li><a href="https://github.com/justrodr" target="_blank" class="link">Github</a></li>
+        <li><a href="https://www.linkedin.com/in/justin-rodr/" target="_blank" class="link">LinkedIn</a></li>
+        <li><a href="https://www.youtube.com/channel/UCtybUM7yJS8pQ94kVcHxs2A?view_as=subscriber" target="_blank"
+            class="link">Youtube</a></li>
       </div>
     </div>
+  </div>
 
-    <script>
-      function myFunction(x) {
-        x.classList.toggle("change");
-      }
-    </script>
+  <script>
+    function myFunction(x) {
+      x.classList.toggle("change");
+    }
+  </script>
 
-    
-    <div class="post_page">
-        <h2 class="post_title">Okapi Home Management</h2>
-        <h3 class="post_subtitle">A Modern Solution For Private Landlords To Maintain Their Rental Homes' AC's</h3>
-        <div class="single_column">
-          <img src="images/okapi_1.JPG" class="small_pic">
-        </div>
-        <p class="post_paragraph">
-          For my semester-long project in my software engineering class, I worked on building a rental home
-          management system for independent landlords. This is a project that I had been wanting to work on for a long
-          time, and I was really excited that this class gave me the time and resources to work on this project. I
-          know some people who invest in real estate, and came to understand that there are certain risks with owning,
-          and maintaining rental homes. One of the worst things that can happen is the air conditioner of a home
-          breaks. If the AC breaks, it is usually up to the landlord to fix it in a timely manner.
-          Fixing a house's AC is extremely time consuming and costly. It can cost home owners up to their entire
-          profit for the entire year from that house's rent revenue. This costly event can be prevented by simply
-          changing the air filters in the house regularly. The goal for this project was to develop a way for
-          landlords to track the status of each of their homes' air filters, and to automize the delivery of new air
-          filters to all of their homes.
-        </p>
-        <div class="single_column">
-          <img src="images/okapi_2.JPG" class="small_pic">
-        </div>
-        <p class="post_paragraph">
-            I work on a team of five. We work in the Agile framework, and I act as the project owner
-            which means I am in charge of corresponding with our test users, and gathering data. For development, most
-            of my contributions are on the front end. Our project is built in Ruby on Rails. For the automatic orders,
-            we are utilizing the Paypal API. There is an admin account that keeps tracks of the orders coming in. The
-            business plan is to team up with a white label air filter manufacturer that would be able to fulfill the
-            orders on our site. We have completed a version of Okapi Home Management for the class, and we are now
-            looking towards building the business in the future.
-        </p>
-        <a target="_blank" href="https://okapihomemanagement.herokuapp.com">Link to Website &#8594</a>
+
+  <div class="post_page">
+    <h2 class="post_title">Okapi Home Management</h2>
+    <h3 class="post_subtitle">A Modern Solution For Private Landlords To Maintain Their Rental Homes' AC's</h3>
+    <div class="single_column">
+      <img src="images/okapi_1.JPG" class="small_pic">
     </div>
+    <p class="post_paragraph">
+      AC Angel is an HVAC filter subscription service for private landlords to service all of their properties. I have
+      been working on this web app for several years and through many iterations. I am currently working on a launchable
+      version, and attracting beta users and customers.
+    </p>
+    <h3>The Problem</h3>
+    <p class="post_paragraph">
+      Private landlords face a unique problem: Repairing and replacing HVAC units can be extremely costly for property
+      owners, and while mitigating these costs is as simple as replacing the home’s air filters regularly, relying on
+      tenants to do so can be unreliable.
+    </p>
+    <h3>The Solution</h3>
+    <p class="post_paragraph">
+      My idea is to provide private landlords a central account from which set up unique air filter subscriptions for
+      each of their homes. The app will send text message reminders to tenants to change their air filters. And
+      transparent purchase history and cost analysis will allow private landlords to easily understand their expenses.
+    </p>
+    <h3>Iterations</h3>
+    <p class="post_paragraph">
+      Some family members who are invested in real estate made me aware of the problem that tenants are not changing
+      their air filters, and it’s costing them (the owners) a lot of time and money. I first tried to build this web app
+      as a hackathon project; however, because of my lack of knowledge in web development back then, the project did not
+      get far. We called the project, AC Angel.
+    </p>
+    <img src="images/okapi_2.jpg" class="small_pic">
+    <p class="post_paragraph">
+      The second iteration that I worked on this was with a team as part of a semester long group project in my Junior
+      year of college. I convinced my team to pursue this idea, and that we could potentially work on bringing it to
+      market after the semester. We named the project “Okapi” arbitrarily. We built the project with Ruby on Rails, and
+      hosted our demo site on Heroku. While the website was visually pretty, the database was unstable, and the
+      functionality was limited.
+    </p>
+    <img src="images/HammesScreenshot.png" class="small_pic">
+    <p class="post_paragraph">
+      The third iteration that I worked on this was for my Senior capstone course in college. Again, I coerced my team
+      to work on an AC filter subscription service for private landlords – this time named “Hammes” after the brothers
+      who invented the original AC filter. We decided to build the website with more modern technologies. We used Python
+      Flask for the backend and React JS for the front end. I served as the product lead, and backend lead. As we got
+      closer to the deadline, I implemented much of the functionality in the front end. We used Stripe to handle
+      payments, and we hosted the site on Heroku. Due to some teamwork issues, and self-built password security, our
+      final product for the course, while functional, was insecure and bug-filled. During the course, we did a lot of
+      good market research, and honed in on how the product should be designed.
+    </p>
+    <h3>Current</h3>
+    <p class="post_paragraph">
+      I am currently working alone on a fourth iteration that combines everything I have learned from my previous
+      experiences, that will hopefully be market ready. I am using plain HTML CSS and Javascript with a Firebase
+      backend, and Typescript cloud functions. I am using Stripe to handle payments. I am also doing market research by
+      asking leaders in the investment real estate industry for advice and opinions on my product. </p>
+    <h3>Future</h3>
+    <p class="post_paragraph">
+      My hope for this project is that it will successfully increase the lifespan of private landlords’ HVAC units in
+      each of their homes. I would like to expand this into providing an interface for tenants to report HVAC issues,
+      and for landlords to answer work orders. The website could help landlords automate calling AC contractors to
+      specific homes, and data reported could then be used to help private landlords choose the best AC filters for
+      their homes.
+    </p>
+    <a target="_blank" href="https://okapihomemanagement.herokuapp.com">Link to Website &#8594</a>
+  </div>
   <div class="row">
     <div class="footer">
       <div>
         <a class="links" href="JustinRodriguezResume.pdf" target="_blank">Resume</a>
         <a class="links" href="https://github.com/justrodr" target="_blank">Github</a>
         <a class="links" href="https://www.linkedin.com/in/justin-rodr/" target="_blank">LinkedIn</a class="links">
-        <a class="links" href="mailto:rodriguezjustin657@gmail.com" target="_blank">rodriguezjustin657@gmail.com</a class="links">
+        <a class="links" href="mailto:rodriguezjustin657@gmail.com" target="_blank">rodriguezjustin657@gmail.com</a
+          class="links">
       </div>
     </div>
   </div>

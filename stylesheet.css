@@ -281,6 +281,10 @@ a:visited{
         'right-side right-side right-side right-side right-side right-side';
     }
 
+    .article_preview_title  {
+      font-size: 20pt;
+    }
+
     .contact_menu {
         float: none;
         margin: auto;
@@ -290,12 +294,16 @@ a:visited{
         display: none;
     }
 
+    #about_p {
+      font-size: 16pt;
+    }
+
     .shift_down {
       margin-top: 0;
     }
 
     .floating_item {
-      width: 80%;
+      width: 100%;
       padding-left: 0;
       padding-right: 0;
       float: left;

@@ -226,6 +226,11 @@ li a{
   font-size: 16px;
 }
 
+h3 {
+  font-size: 20pt;
+  font-family: 'Avenir-Black', sans-serif;
+}
+
 
 @media screen and (max-width: 700px){
 
