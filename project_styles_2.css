@@ -211,6 +211,21 @@ li a{
 	height: 100%;
 }
 
+.footer {
+  padding-top: 5vh;
+  padding-bottom: 5vh;
+  text-align: center;
+  font-family: 'Avenir-Light';
+  font-size: 16px;
+}
+
+.footer a {
+  padding-left: 1vw;
+  padding-right: 1vw;
+  font-family: 'Avenir-Light';
+  font-size: 16px;
+}
+
 
 @media screen and (max-width: 700px){
 

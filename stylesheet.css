@@ -205,7 +205,7 @@ a:visited{
 .small_pic{
     padding-top: 30px;
     padding-bottom: 30px;
-    width: 80%;
+    width: 100%;
     margin: auto;
 }
 
@@ -234,8 +234,13 @@ a:visited{
 }
 
 .footer {
-  height: 500px;
-  background-color: #FF2102;
+  padding-top: 5vh;
+  text-align: center;
+}
+
+.footer a {
+  padding-left: 1vw;
+  padding-right: 1vw;
 }
 
 .section-title {
