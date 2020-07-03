@@ -240,4 +240,9 @@ h3 {
     padding-top: 5%;
   }
 
+  .hamburger_menu {
+    background-color: white;
+    width: 100vw;
+  }
+
 }

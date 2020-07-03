@@ -26,6 +26,10 @@ header {
   padding-top: 0;
 }
 
+.home_page_pic .image img {
+  height: 185px;
+}
+
 #about_p {
   scroll-behavior: smooth;
 }
@@ -65,6 +69,19 @@ header {
     padding-left: 5%;
     padding-right: 5%;
     padding-top: 5%;
+}
+
+.two_column_grid_home {
+  display: grid;
+  grid-template-areas:
+  'left-side left-side left-side right-side right-side right-side'
+  'left-side left-side left-side right-side right-side right-side'
+  'left-side left-side left-side right-side right-side right-side'
+  'left-side left-side left-side right-side right-side right-side';
+  grid-gap: 5px;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 5%;
 }
 
 .floating_item {
@@ -128,6 +145,14 @@ li a{
 .vertical_shift:hover {
   color: #FF2102;
   /* opacity: .5; */
+  /* animation: wiggle 1000ms infinite;
+  animation-timing-function: linear;    */
+}
+
+@keyframes wiggle {
+  0% { transform: translate(2px, 0); }
+  50% { transform: translate(-2px, 0); }
+  100% { transform: translate(2px, 0); }
 }
 
 #about_p
@@ -187,7 +212,7 @@ a:visited{
   font-size: 30pt;
   margin-top: 10px;
   transition: 0.3s;
-  line-height: 1.2;
+  line-height: 1;
 }
 
 .article_preview_subtitle {
@@ -205,7 +230,7 @@ a:visited{
 
 .small_pic{
     padding-top: 30px;
-    padding-bottom: 30px;
+    padding-bottom: 0px;
     width: 100%;
     margin: auto;
 }
@@ -281,17 +306,39 @@ a:visited{
         'right-side right-side right-side right-side right-side right-side';
     }
 
-    .article_preview_title  {
-      font-size: 20pt;
+    .two_column_grid_home {
+      grid-gap: 0;
+    }
+
+    .home_page_pic .image img {
+      height: 150px;
+    }
+
+    .title{
+      font-size: 12pt;
+      margin-bottom: 5px;
+      font-family: 'Avenir-Black', 'sans-serif';
+      line-height: 1;
     }
 
     .contact_menu {
-        float: none;
-        margin: auto;
+      float: right;
+      padding: 26.5vh 0;
+      width: 100px;
     }
 
-    .home_page_pic {
-        display: none;
+    li a{
+      text-decoration: none;
+      display: inline-block;
+      color: black;
+      font-family: 'Avenir-Light', sans-serif;
+      line-height: 0;
+      font-size: 10pt;
+      padding: 0;
+    }
+
+    li{
+      margin: -4px 0;
     }
 
     #about_p {
