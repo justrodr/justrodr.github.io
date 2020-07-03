@@ -366,9 +366,9 @@ a:visited{
         float: center;
     }
 
-    /* img {
-      height: 80px;
-    } */
+    #down_arrow {
+      transform: translateY(-50px);
+    }
 
 
 
