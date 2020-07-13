@@ -1,0 +1,130 @@
+body {
+    background: #3753FE;
+    color: white;
+}
+
+h1 {
+    font-family: 'Avenir-Black', 'sans-serif';
+    font-size: 32pt;
+}
+
+p {
+    font-family: 'Avenir-Medium', 'sans-serif';
+    font-size: 14pt;
+    padding-bottom: 25px;
+}
+
+.firstBtn {
+    /* background-color: #FF8052; */
+    background-color: #FF5261;
+    color: white;
+    font-family: 'Avenir-Black', 'sans-serif';
+    padding: 1em 3em;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: 0.5s;
+    border-radius: 1.5em;
+    font-size: 12pt;
+}
+
+.firstBtn:hover {
+    background-color: #E34955;
+}
+
+.secondaryBtns {
+    padding-top: 50px;
+    padding-left: 1em;
+}
+
+.secondBtn {
+    /* background-color: #FF5261; */
+    color: white;
+    font-family: 'Avenir-Black', 'sans-serif';
+    /* padding: 1em 1em; */
+    padding-right: 1em;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: 0.5s;
+    border-radius: 1.5em;
+    font-size: 12pt;
+}
+
+.secondBtn:hover {
+    /* background-color: #E34955; */
+    color: #dddddd;
+}
+
+a:visited {
+    color: #ffffff;
+}
+
+.two_column_grid {
+    grid-gap: 50px;
+}
+
+.shift_down {
+    margin-top: 15%;
+}
+
+.small_pic {
+    width: 120%;
+}
+
+@media screen and (max-width: 500px){
+
+    .two_column_grid {
+        grid-template-areas:
+        'right-side right-side right-side right-side right-side right-side'
+        'right-side right-side right-side right-side right-side right-side'
+        'left-side left-side left-side left-side left-side left-side'
+        'left-side left-side left-side left-side left-side left-side';
+    }
+
+    .small_pic {
+        width: 100%;
+        margin-bottom: -100px;
+    }
+
+    h1 {
+        font-family: 'Avenir-Black', 'sans-serif';
+        font-size: 14pt;
+    }
+    
+    p {
+        font-family: 'Avenir-Medium', 'sans-serif';
+        font-size: 8pt;
+        padding-bottom: 25px;
+    }
+
+    .firstBtn {
+        /* background-color: #FF8052; */
+        background-color: #FF5261;
+        color: white;
+        font-family: 'Avenir-Black', 'sans-serif';
+        padding: 1em 3em;
+        text-decoration: none;
+        text-transform: uppercase;
+        transition: 0.5s;
+        border-radius: 1.5em;
+        font-size: 10pt;
+    }
+
+    .secondBtn {
+        /* background-color: #FF5261; */
+        color: white;
+        font-family: 'Avenir-Black', 'sans-serif';
+        /* padding: 1em 1em; */
+        padding-right: 1em;
+        text-decoration: none;
+        text-transform: uppercase;
+        transition: 0.5s;
+        border-radius: 1.5em;
+        font-size: 10pt;
+    }
+
+    .secondaryBtns {
+        padding-top: 25px;
+        padding-left: 1em;
+    }
+    
+}
