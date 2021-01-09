@@ -314,6 +314,7 @@ li {
     position: relative;
     color: #fff;
     margin-top: 6.25rem;
+    z-index: -2;
 }
 
 #global-footer .container {
