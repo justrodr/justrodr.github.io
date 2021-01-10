@@ -1,183 +1,156 @@
 <!DOCTYPE html>
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Justin Rodriguez</title>
-  <link rel="stylesheet" href="stylesheet.css">
-  <link rel="stylesheet" href="fonts.css">
-  <link rel="icon" href="images/favicon.png">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Justin Rodriguez</title>
+    <link rel="stylesheet" href="HomepageStylesheet.css">
+    <link rel="stylesheet" href="GlobalStylesheet.css">
+    <link rel="stylesheet" href="fonts.css">
+    <link rel="icon" href="images/favicon.png">
 </head>
+
 <html>
 
 <body>
-  <div class="two_column_grid_home" id="home_menu">
-    <div class="two_col_left_col">
-      <div class="contact_menu">
-        <li><a class="title">Justin<br>Rodriguez</a></li>
-        <li><a href="#about_p" class="link">About</a></li>
-        <li><a href="#Featured_Articles" class="link">Work</a></li>
-        <li><a href="https://medium.com/@rodriguezjustin657" target="_blank" class="link">Blog</a></li>
-        <li><a href="JustinRodriguezResume.pdf" target="_blank" class="link">Resume</a></li>
-        <li><a href="https://github.com/justrodr" target="_blank" class="link">Github</a></li>
-        <li><a href="https://www.linkedin.com/in/justin-rodr/" target="_blank" class="link">LinkedIn</a></li>
-      </div>
-    </div>
-    <div class="two_col_right_col home_page_pic">
-      <div class="image">
-        <img src="images/profile.jpg">
-      </div>
-    </div>
-  </div>
-  <div class="single_column" id="down_arrow">
-    <a href="#about_p" class="vertical_shift">&#8964</a>
-  </div>
-  <div class="single_column" id="about_p">
-    <h3 class="title"> About</h3>
-    <p id="about">
-      Hi I'm Justin Rodriguez! <br>
-      I'm an iOS engineer at Yahoo Fantasy Sports.<br>
-      I believe tech should bring joy.
-    </p>
-    <!-- <h3 class="forward-button"><a href="portfolio.html">Blog &#8594</a></h3> -->
-  </div>
-  <div id="Featured_Articles" class="work">
-    <h2 class="title">Work</h2>
-    <div class="two_column_grid">
-      <div class="two_col_left_col">
-        <a href="DripDripArticle.html" class="article_preview_link">
-          <div class="floating_item">
-            <div id="article_preview_image">
-              <img src="images/DripDripFeature.jpg" class="prev_img small_pic">
+    <div id="container">
+        <header id="global-header">
+            <div class="container">
+                <div class="header-flex-wrapper">
+                    <div class="logo logo-lg">
+                        <a href="index.html" class="no-hover" aria-label="Howdy Justin Homepage">Justin Rodriguez</a>
+                    </div>
+                    <nav aria-label="Primary">
+                        <ul>
+                            <li>
+                                <a href="JustinRodriguezResume.pdf" target="_blank" class="resume">Resume</a>
+                            </li>
+                            <li>
+                                <a href="https://github.com/justrodr" target="_blank" class="github">Github</a>
+                            </li>
+                            <li>
+                                <a href="https://www.linkedin.com/in/justin-rodr/" target="_blank" class="LinkedIn">LinkedIn</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
             </div>
-            <h3 class="article_preview_title">DripDrip</h3>
-            <h4 class="article_preview_subtitle">An irreverant social hydration tracker and reminder app</h4>
-          </div>
-        </a>
-      </div>
-      <div class="two_col_right_col  ">
-        <a href="WeekendTrip2.html" class="article_preview_link">
-          <div class="floating_item align_right">
-            <div id="article_preview_image">
-              <img src="images/WeekendTripFeature.jpg" class="prev_img small_pic">
-            </div>
-            <h3 class="article_preview_title">Weekend Trip</h3>
-            <h4 class="article_preview_subtitle">A Travel App For The Busy And Broke
-            </h4>
-          </div>
-        </a>
-      </div>
-    </div>
+        </header>
 
+        <main id="content">
+            <section class="homepage-projects projects">
+                <div class="container">
+                    <div class="wrapper">
+                        <div class="projects-list-wrapper homepage-projects-list-wrapper">
+                            <h3 class="section-title">Work</h3>
+                            <ul class="projects-list">
+                                <li class="projects-list-item">
+                                    <a href="DripDrip.html" class="projects-list-item-title">DripDrip</a>
+                                    <div class="homepage-hero-image">
+                                        <img src="images/DripDripFeature.jpg" style='height: 100%; width: 100%; object-fit: contain'/>
+                                    </div>
+                                    <div class="bg"></div>
+                                    <p>An irreverant social hydration tracker and reminder app</p>
+                                </li>
 
-    <div class="two_column_grid">
-      <div class="two_col_left_col   ">
-        <a href="verizon_media_interns.html" class="article_preview_link">
-          <div class="floating_item">
-            <div id="article_preview_image">
-              <img src="images/YahooFeature.jpg" class="prev_img small_pic">
-            </div>
-            <h3 class="article_preview_title">Summer 2019 @ Verizon Media, on the Yahoo Fantasy Sports iOS team</h3>
-            <h4 class="article_preview_subtitle">Best Ball: Building and releasing the newest game in the family of
-              Yahoo Fantasy Sports games</h4>
-          </div>
-        </a>
-      </div>
-      <div class="two_col_right_col  ">
-        <a href="okapi.html" class="article_preview_link">
-          <div class="floating_item align_right">
-            <div id="article_preview_image">
-              <img src="images/ACAngelFeature.jpg" class="prev_img small_pic">
-            </div>
-            <h3 class="article_preview_title">AC Angel</h3>
-            <h4 class="article_preview_subtitle">A Modern Solution For Private Landlords To Maintain Their Rental Homes'
-              AC's</h4>
-          </div>
-        </a>
-      </div>
-    </div>
+                                <li class="projects-list-item">
+                                    <a href="WeekendTrip.html" class="projects-list-item-title">Weekend Trip</a>
+                                    <div class="homepage-hero-image">
+                                        <img src="images/WeekendTripFeature.jpg" style='height: 100%; width: 100%; object-fit: contain'/>
+                                    </div>
+                                    <div class="bg"></div>
+                                    <p>A Travel App For The Busy And Broke</p>
+                                </li>
 
-    <div class="two_column_grid">
-      <div class="two_col_left_col">
-        <a href="bulgaria.html" class="article_preview_link">
-          <div class="floating_item">
-            <div id="article_preview_image">
-              <img src="images/PaysafeFeature.jpg" class="prev_img small_pic">
-            </div>
-            <h3 class="article_preview_title">Summer 2018 @ Paysafe Group</h3>
-            <h4 class="article_preview_subtitle">Software Engineering In Bulgarian Fin Tech</h4>
-          </div>
-        </a>
-      </div>
-      <div class="two_col_right_col  ">
-        <a href="afterschool.html" class="article_preview_link">
-          <div class="floating_item align_right">
-            <div id="article_preview_image">
-              <img src="images/AfterSchoolFeature.jpg" class="prev_img small_pic">
-            </div>
-            <h3 class="article_preview_title">Summer 2017 @ The After School App</h3>
-            <h4 class="article_preview_subtitle">Designing for a 10 person startup in San Francisco</h4>
-          </div>
-        </a>
-      </div>
-    </div>
+                                <li class="projects-list-item">
+                                    <a href="VerizonMediaInternship2019.html" class="projects-list-item-title">Summer 2019 @Yahoo</a>
+                                    <div class="homepage-hero-image">
+                                        <img src="images/YahooFeature.jpg" style='height: 100%; width: 100%; object-fit: contain'/>
+                                    </div>
+                                    <div class="bg"></div>
+                                    <p>Best Ball: Building and releasing the newest game in the family of
+                                        Yahoo Fantasy Sports games</p>
+                                </li>
 
-    <!-- <div class="two_column_grid">
-      <div class="two_col_left_col shift_up">
-        <a href="braeswood.html" class="article_preview_link">
-          <div class="floating_item">
-            <div id="article_preview_image">
-              <img src="images/first_pic.jpg" class="prev_img small_pic">
-            </div>
-            <h3 class="article_preview_title">Braeswood Brand</h3>
-            <h4 class="article_preview_subtitle">An entrepreneurial endeavor into financial freedom</h4>
-          </div>
-        </a>
-      </div>
-      <div class="two_col_right_col shift_down">
-        <a href="aggies-invent.html" class="article_preview_link">
-          <div class="floating_item align_right">
-            <div id="article_preview_image">
-              <img src="images/aggies-invent.jpg" class="prev_img small_pic">
-            </div>
-            <h3 class="article_preview_title">2nd Place Aggies Invent</h3>
-            <h4 class="article_preview_subtitle">Winning 2nd Place at Texas A&M's premier all-engineering hackathon</h4>
-          </div>
-        </a>
-      </div>
-    </div>
+                                <li class="projects-list-item">
+                                    <a href="ACAngel.html" class="projects-list-item-title">AC Angel</a>
+                                    <div class="homepage-hero-image">
+                                        <img src="images/ACAngelFeature.jpg" style='height: 100%; width: 100%; object-fit: contain'/>
+                                    </div>
+                                    <div class="bg"></div>
+                                    <p>A Modern Solution For Private Landlords To Maintain Their Rental Homes'
+                                        AC's</p>
+                                </li>
 
-    <div class="two_column_grid">
-      <div class="two_col_left_col">
-        <a href="adobe.html" class="article_preview_link">
-          <div class="floating_item">
-            <div id="article_preview_image">
-              <img src="images/sf.jpg" class="prev_img small_pic">
+                                <li class="projects-list-item">
+                                    <a href="PaysafeInternship2018.html" class="projects-list-item-title">Summer 2018 @Paysafe Group</a>
+                                    <div class="homepage-hero-image">
+                                        <img src="images/PaysafeFeature.jpg" style='height: 100%; width: 100%; object-fit: contain'/>
+                                    </div>
+                                    <div class="bg"></div>
+                                    <p>Software Engineering In Bulgarian Fin Tech</p>
+                                </li>
+
+                                <li class="projects-list-item">
+                                    <a href="AfterSchoolInternship2017.html" class="projects-list-item-title">Summer 2017 @After School</a>
+                                    <div class="homepage-hero-image">
+                                        <img src="images/AfterSchoolFeature.jpg" style='height: 100%; width: 100%; object-fit: contain'/>
+                                    </div>
+                                    <div class="bg"></div>
+                                    <p>Designing for a 10 person startup in San Francisco</p>
+                                </li>
+                            </ul>
+
+                        </div>
+                        <div class="homepage-about-wrapper">
+                            <div class="homepage-projects-tagline-wrapper">
+                                <h1>Building<br>For Happiness</h1>
+                            </div>
+                            <div class="homepage-projects-text-wrapper">
+                                <p>Hi I'm Justin Rodriguez!<br>
+                                    I'm an iOS engineer at Yahoo Fantasy Sports. <br>
+                                    I believe tech should bring joy.</p>
+                                <ul>
+                                    <li>
+                                        <a class="email" rel="noopener noreferrer" href="mailto:rodriguezjustin657@gmail.com" target="_blank" title="Opens in default email client" data-ctatitle="Home Page: Email"
+                                            data-actioname="Email Click" data-actiontype="Contact">rodriguezjustin657@gmail.com</a>
+                                    </li>
+                                    <li>
+                                        <a class="phone" href="tel:+17138998867" rel="noopener noreferrer"
+                                            target="_blank" title="Opens in default phone client"
+                                            data-ctatitle="Home Page: Phone" data-actioname="Phone Click"
+                                            data-actiontype="Contact">(713) 899-8867</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer id="global-footer">
+            <div class="container">
+                <div class="content">
+                    <div class="content-info">
+                        <h2 class="content-info-title">Contact</h2>
+                        <ul>
+                            <li>
+                                <a class="email" rel="noopener noreferrer" href="mailto:rodriguezjustin657@gmail.com" target="_blank" title="Opens in default email client" data-ctatitle="Home Page: Email"
+                                    data-actioname="Email Click" data-actiontype="Contact">rodriguezjustin657@gmail.com</a>
+                            </li>
+                            <li>
+                                <a class="phone" href="tel:+17138998867" rel="noopener noreferrer"
+                                    target="_blank" title="Opens in default phone client"
+                                    data-ctatitle="Home Page: Phone" data-actioname="Phone Click"
+                                    data-actiontype="Contact">(713) 899-8867</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
             </div>
-            <h3 class="article_preview_title">Summer 2015 @ Adobe</h3>
-            <h4 class="article_preview_subtitle">My first exposure to Silicon Valley</h4>
-          </div>
-        </a>
-      </div>
-    </div>
-
-  </div> -->
-
-    <div class="row">
-      <div class="footer">
-        <div>
-          <a class="links" href="JustinRodriguezResume.pdf" target="_blank">Resume</a>
-          <a class="links" href="https://github.com/justrodr" target="_blank">Github</a>
-          <a class="links" href="https://www.linkedin.com/in/justin-rodr/" target="_blank">LinkedIn</a class="links">
-          <a class="links" href="mailto:rodriguezjustin657@gmail.com" target="_blank">rodriguezjustin657@gmail.com</a
-            class="links">
-          <a href="https://www.youtube.com/channel/UCtybUM7yJS8pQ94kVcHxs2A?view_as=subscriber" target="_blank"
-            class="links">Youtube</a>
-          <a href="https://medium.com/@rodriguezjustin657" target="_blank" class="links">Blog</a>
-          <a href="https://twitter.com/jrod__5" target="_blank" class="links">Twitter</a>
-        </div>
-      </div>
+        </footer>
     </div>
 </body>
 

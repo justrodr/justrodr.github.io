@@ -5,45 +5,105 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Justin Rodriguez</title>
-    <link rel="stylesheet" href="project_styles.css">
+    <link rel="stylesheet" href="GlobalStylesheet.css">
+    <link rel="stylesheet" href="ArticleStylesheet.css">
+    <link rel="stylesheet" href="fonts.css">
     <link rel="icon" href="images/favicon.png">
 </head>
+
 <html>
 
 <body>
-    <header>
-        <h3 class="back-button"><a href="portfolio.html">&#8592</a></h3>
-        <h2>Verizon Media Yahoo Fantasy Sports</h2>
-    </header>
-    <div class="grid">
-        <div class="left-col">
-            <img src="images/verizon_media_interns.JPG" class="small_pic">
-        </div>
-        <div class="right-col">
-            <p>
-                I am currently working as an iOS intern on the Yahoo Fantasy Sports team at Verizon Media. Most of my
-                work is contributing to the new Yahoo Fantasy Sports game, Best Ball. My work is very exciting as Best
-                Ball is the first new fantasy sports game for Yahoo in 9 years or so. So far, I have developed several
-                screens and flows for the game, and I am serving as the release manager for the release of Best Ball on
-                iOS later this month. I have also worked on fixing bugs and maintaining the existing app. Most of my
-                work has been in Swift and Objective-C.
-            </p>
-        </div>
-    </div>
-  <div class="row">
-    <div class="footer">
-      <div>
-                <a class="links" href="JustinRodriguezResume.pdf" target="_blank">Resume</a>
-        <a class="links" href="https://github.com/justrodr" target="_blank">Github</a>
-        <a class="links" href="https://www.linkedin.com/in/justin-rodr/" target="_blank">LinkedIn</a class="links">
-        <a class="links" href="mailto:rodriguezjustin657@gmail.com" target="_blank">rodriguezjustin657@gmail.com</a class="links">
-        <a href="https://www.youtube.com/channel/UCtybUM7yJS8pQ94kVcHxs2A?view_as=subscriber" target="_blank"
-            class="links">Youtube</a>
-        <a href="https://medium.com/@rodriguezjustin657" target="_blank"
-            class="links">Blog</a>
-      </div>
-    </div>
-  </div>
-</body>
+    <div id="container">
+        <header id="global-header">
+            <div class="container">
+                <div class="header-flex-wrapper">
+                    <div class="logo logo-lg">
+                        <a href="index.html" class="no-hover" aria-label="Howdy Justin Homepage">Justin Rodriguez</a>
+                    </div>
+                    <nav aria-label="Primary">
+                        <ul>
+                            <li>
+                                <a href="JustinRodriguezResume.pdf" target="_blank" class="resume">Resume</a>
+                            </li>
+                            <li>
+                                <a href="https://github.com/justrodr" target="_blank" class="github">Github</a>
+                            </li>
+                            <li>
+                                <a href="https://www.linkedin.com/in/justin-rodr/" target="_blank"
+                                    class="LinkedIn">LinkedIn</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </header>
 
-</html>
+        <main class="content">
+            <div class="post_page">
+                <h1 class="post_title">Weekend Trip</h1>
+                <h4 class="post_subtitle">A Travel App For The Busy And Broke</h4>
+                <div class=two_column_grid>
+                    <div class="two_col_left_col">
+                        <img src="images/WeekendTripScreenshot2.png" class="small_pic">
+                    </div>
+                    <div class="two_col_right_col">
+                        <img src="images/WeekendTripScreenshot.png" class="small_pic">
+                    </div>
+                </div>
+                <p class="post_paragraph">
+                    Weekend Trip is a mobile flight search engine designed and optimized for busy and broke college
+                    students. College
+                    students have some of the worst constraints to travel since students are often short on money, and
+                    are only
+                    available to travel during the most expensive times of the year (weekends, and holidays). Weekend
+                    Trip helps empower
+                    students to travel more by providing an insanely easy and intuitive interface for students to browse
+                    possible
+                    trips. Here’s how it works: users simply input their home airport, and Weekend trip will return the
+                    cheapest round
+                    trip flights for the upcoming weekend. The aim is to show students that 1) travel is in fact
+                    possible despite time
+                    and financial constraints and 2) there are many amazing destinations in North America, that might
+                    not be in the
+                    mainstream travel destinations.
+                </p>
+                <p class="post_paragraph">
+                    Weekend trip is a first step in an attempt to revolutionize travel for students and other broke and
+                    busy people.
+                    The time to travel is when you are a young student, and my aim is to empower people to do so.
+                    Weekend Trip
+                    currently has about 150 downloads, and I am working to grow that more. I am also working to further
+                    build and
+                    iterate on other travel solutions for students.
+                </p>
+                <a href="https://apps.apple.com/us/app/weekend-trip-cheap-flights/id1475036630" target="_blank">App
+                    Store Link
+                    &#8594</a>
+            </div>
+        </main>
+
+        <footer id="global-footer">
+            <div class="container">
+                <div class="content">
+                    <div class="content-info">
+                        <h2 class="content-info-title">Contact</h2>
+                        <ul>
+                            <li>
+                                <a class="email" rel="noopener noreferrer" href="mailto:rodriguezjustin657@gmail.com"
+                                    target="_blank" title="Opens in default email client"
+                                    data-ctatitle="Home Page: Email" data-actioname="Email Click"
+                                    data-actiontype="Contact">rodriguezjustin657@gmail.com</a>
+                            </li>
+                            <li>
+                                <a class="phone" href="tel:+17138998867" rel="noopener noreferrer" target="_blank"
+                                    title="Opens in default phone client" data-ctatitle="Home Page: Phone"
+                                    data-actioname="Phone Click" data-actiontype="Contact">(713) 899-8867</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
