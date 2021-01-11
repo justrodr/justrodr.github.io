@@ -45,11 +45,12 @@
 #content .homepage-projects .homepage-projects-list-wrapper ul li  .homepage-hero-image{
     width: 35vw;
     height: 0;
-    margin-left: 50vw;
+    margin-left: 50%;
     bottom: 10vh;
     display: block;
     opacity: 0;
     transition: opacity 0.5s;
+    /* max-width: 600px; */
 }
 
 #content .homepage-projects .homepage-projects-list-wrapper ul li .bg{
@@ -147,6 +148,20 @@
 
     #content .homepage-projects .homepage-projects-list-wrapper ul li .projects-list-item-title {
         font-size: 24pt;
+    }
+
+}
+
+
+@media only screen and (min-width: 1700px) {
+
+    #content .homepage-projects .homepage-projects-list-wrapper ul li  .homepage-hero-image{
+        margin-left: 40%;
+        width: 30vw;
+    }
+
+    #content .homepage-projects .homepage-projects-list-wrapper ul li .projects-list-item-title:hover + .homepage-hero-image {
+        height: 30vw;
     }
 
 }
