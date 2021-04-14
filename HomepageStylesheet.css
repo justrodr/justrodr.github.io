@@ -7,150 +7,158 @@
     padding-right: 5vw;
 }
 
-#content .homepage-projects {
-
+.homepage-intro-section {
+    padding-left: 20vw;
+    height: 70vh;
 }
 
-#content .homepage-projects .container {
-
+.homepage-intro-section h2 {
+    font-size: 48pt;
+    line-height: 56pt;
 }
 
-#content .homepage-projects .container .wrapper {
+.homepage-intro-section h2 a {
+    font-size: 48pt;
+    font-family: "Metropolis-Bold", sans-serif;
+}
+
+.homepage-article-intro {
+    padding-top: 50px;
+    height: 110vh;
+}
+
+.two-column-container {
     display: flex;
     flex-wrap: nowrap;
 }
 
-#content .homepage-projects .homepage-projects-list-wrapper {
-    width: 60vw;
+.left-column-container {
+    width: 50%;
 }
 
-#content .homepage-projects .homepage-projects-list-wrapper .section-title{
-    color: #757575;
+.right-column-container {
+    width: 50%;
 }
 
-#content .homepage-projects .homepage-projects-list-wrapper ul {
-    list-style-type: none;
+.image-container {
+    width: 90%
 }
 
-#content .homepage-projects .homepage-projects-list-wrapper ul li {
-    padding-bottom: 40px;
-    width:auto;
+.text-container {
+    display: relative;
+    float: right;
+    margin-top: -50px;
 }
 
-#content .homepage-projects .homepage-projects-list-wrapper ul li .projects-list-item-title {
-    text-decoration: none;
-    font-size: 32pt;
+.text-container h2 {
+    font-size: 48pt;
+    line-height: 58pt;
 }
 
-#content .homepage-projects .homepage-projects-list-wrapper ul li  .homepage-hero-image{
-    width: 35vw;
-    height: 0;
-    margin-left: 50%;
-    bottom: 10vh;
-    display: block;
-    opacity: 0;
-    transition: opacity 0.5s;
-    /* max-width: 600px; */
+.article-button a {
+    font-size: 14pt;
 }
 
-#content .homepage-projects .homepage-projects-list-wrapper ul li .bg{
-    position: fixed;
-    z-index: -2;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    transition: 0.5s;
-    pointer-events: none;
-    display: block;
-    background-color: white;
-    opacity: 0;
+@media only screen and (max-width: 700px){
 
-}
+    .homepage-intro-section {
+        padding-left: 0;
+        height: auto;
+    }
 
-#content .homepage-projects .homepage-projects-list-wrapper ul li .projects-list-item-title:hover {
-    text-decoration: underline;
-}
+    .homepage-intro-section h2 {
+        font-size: 24pt;
+        line-height: 28pt;
+    }
 
-#content .homepage-projects .homepage-projects-list-wrapper ul li .projects-list-item-title:hover ~ p {
-}
+    .homepage-intro-section h2 a {
+        font-size: 24pt;
+        font-family: "Metropolis-Bold", sans-serif;
+    }
 
-#content .homepage-projects .homepage-projects-list-wrapper ul li .projects-list-item-title:hover + .homepage-hero-image {
-    background-size: contain;
-    position: fixed;
-    height: 35vw;
-    opacity: 1;
-    z-index: 1;
-}
-
-#content .homepage-projects .homepage-projects-list-wrapper ul li .projects-list-item-title:hover ~ .bg {
-    opacity: 1;
-}
-
-#content .homepage-projects .homepage-projects-list-wrapper ul li p {
-    font-size: 12pt;
-    font-family: "Avenir-Book", sans-serif;
-    color: #757575;
-    margin-top: 5px;
-    transition: 0.3s;
-}
-
-#content .homepage-projects .homepage-projects-list-wrapper ul li a {
-
-}
-
-#content .homepage-projects .homepage-about-wrapper {
-    width: 40vw;
-    z-index: -3;
-}
-
-#content .homepage-projects .homepage-about-wrapper .homepage-projects-tagline-wrapper {
-
-}
-
-#content .homepage-projects .homepage-about-wrapper .homepage-projects-text-wrapper {
-    padding-left: 100px;
-}
-
-#content .homepage-projects .homepage-about-wrapper .homepage-projects-text-wrapper ul {
-    list-style-type: none;
-    padding: 0;
-}
-
-#content .homepage-projects .homepage-about-wrapper .homepage-projects-text-wrapper ul li{
-    list-style-type: none;
-    padding-top: 10px;
-    padding-bottom: 10px;
-}
-
-#content .homepage-projects .homepage-about-wrapper .homepage-projects-text-wrapper ul li a {
-    color: #757575;
-    text-decoration: none;
-    border-bottom: 2px solid;
-    font-family: "Avenir-Book", sans-serif;
-    font-size: 12pt;
-}
-
-@media only screen and (max-width: 700px) {
-
-    #content .homepage-projects .container .wrapper {
+    .two-column-container {
         display: flex;
         flex-wrap: wrap;
     }
-
-    #content .homepage-projects .homepage-projects-list-wrapper {
-        width: 100vw;
+    
+    .left-column-container {
+        width: 100%;
+    }
+    
+    .right-column-container {
+        width: 100%;
+    }
+    
+    .image-container {
+        width: 100%
     }
 
-    #content .homepage-projects .homepage-about-wrapper {
-        width: 100vw;
+    .text-container {
+        display: relative;
+        float: right;
+        margin-top: 0;
     }
-
-    #content .homepage-projects .homepage-projects-list-wrapper ul li .projects-list-item-title {
+    
+    .text-container h2 {
         font-size: 24pt;
+        line-height: 28pt;
+    }
+    
+    .article-button a {
+        font-size: 14pt;
+    }
+}
+
+/* @media only screen and (max-width: 1000px){
+
+    .homepage-intro-section {
+        padding-left: 10vw;
+        height: auto;
     }
 
-}
+    .homepage-intro-section h2 {
+        font-size: 24pt;
+        line-height: 28pt;
+    }
+
+    .homepage-intro-section h2 a {
+        font-size: 24pt;
+        font-family: "Metropolis-Bold", sans-serif;
+    }
+
+    .two-column-container {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .left-column-container {
+        width: 50%;
+    }
+    
+    .right-column-container {
+        width: 40%;
+        padding-left: 5%;
+    }
+    
+    .image-container {
+        width: 100%
+    }
+
+    .text-container {
+        display: relative;
+        float: right;
+        margin-top: 0;
+    }
+    
+    .text-container h2 {
+        font-size: 24pt;
+        line-height: 28pt;
+    }
+    
+    .article-button a {
+        font-size: 14pt;
+    }
+} */
 
 
 @media only screen and (min-width: 1700px) {

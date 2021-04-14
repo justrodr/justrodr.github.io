@@ -18,27 +18,27 @@ body #container {
 }
 
 *, html {
-    font-family: "Avenir-Black" ,sans-serif;
+    font-family: "Metropolis-SemiBold" ,sans-serif;
     font-weight: 400;
     font-style: normal;
     color: #262626;
-}
-
-a {
-    color: #262626;
+    scroll-behavior: smooth;
 }
 
 h1 {
+    font-family: "Metropolis-Bold", sans-serif;
     font-size: 48pt;
     color: #262626;
 }
 
 h2 {
+    font-family: "Metropolis-Bold", sans-serif;
     font-size: 24pt;
     color: #262626;
 }
 
 h3 {
+    font-family: "Metropolis-Medium", sans-serif;
     font-size: 14pt;
     color: #262626;
 }
@@ -46,7 +46,11 @@ h3 {
 h4 {
     font-weight: 100;
     font-size: 16pt;
-    font-family: "Avenir-Book", sans-serif;
+    font-family: "Avenir-Regular", sans-serif;
+}
+
+p {
+    font-family: "Metropolis-Light", sans-serif;
 }
 
 li {
@@ -79,7 +83,7 @@ li {
     padding-left: 5vw;
     padding-right: 5vw;
     padding-top: 5vh;
-    padding-bottom: 15vh;
+    padding-bottom: 5vh;
 }
 
 #global-header .container {
@@ -96,29 +100,38 @@ li {
 
 #global-header .container .header-flex-wrapper .logo a {
     text-decoration: none;
+    font-family: "Metropolis-Bold", sans-serif;
+    font-size: 24pt;
 }
 
 #global-header .container .header-flex-wrapper nav {
     width: 50vw;
+    position: relative;
 }
 
 #global-header .container .header-flex-wrapper nav ul {
-    position: relative;
+    position: absolute;
     list-style-type: none;
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-end;
-    margin: 0 -2rem -.5rem;
     padding: 0;
-    top: -.6rem;
+    bottom: 0.7rem;
+    right: 0;
 }
 
 #global-header .container .header-flex-wrapper nav ul li {
-    padding: .4375rem 2rem .5625rem;
+    padding-top: 0rem;
+    padding-right: 0rem;
+    padding-bottom: 0rem;
+    padding-left: 1rem;
+
+    /* padding: .4375rem 2rem .5625rem; */
 }
 
 #global-header .container .header-flex-wrapper nav ul li a {
     text-decoration: none;
+    font-family: "Avenir-Book", sans-serif;
 }
 
 #global-header .container .header-flex-wrapper nav ul li a:hover {
@@ -127,6 +140,22 @@ li {
 }
 
 @media only screen and (max-width: 700px) {
+
+    h1 {
+        font-size: 48pt;
+    }
+    
+    h2 {
+        font-size: 14pt;
+    }
+    
+    h3 {
+        font-size: 14pt;
+    }
+    
+    h4 {
+        font-size: 16pt;
+    }
 
     #global-header {
         padding-bottom: 100px;

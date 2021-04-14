@@ -6,6 +6,69 @@
 }
 
 @font-face {
+    font-family: 'Metropolis-ExtraLight';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Circular Std Black'), url('fonts/Metropolis-ExtraLight.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Metropolis-Thin';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Circular Std Black'), url('fonts/Metropolis-Thin.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Metropolis-Light';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Circular Std Black'), url('fonts/Metropolis-Light.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Metropolis-Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Circular Std Black'), url('fonts/Metropolis-Regular.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Metropolis-Medium';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Circular Std Black'), url('fonts/Metropolis-Medium.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Metropolis-SemiBold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Circular Std Black'), url('fonts/Metropolis-SemiBold.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Metropolis-Bold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Circular Std Black'), url('fonts/Metropolis-Bold.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Metropolis-ExtraBold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Circular Std Black'), url('fonts/Metropolis-ExtraBold.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Metropolis-Black';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Circular Std Black'), url('fonts/Metropolis-Black.woff') format('woff');
+}
+
+@font-face {
     font-family: 'Avenir-Light';
     font-style: normal;
     font-weight: normal;
